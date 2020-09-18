@@ -1,0 +1,13 @@
+name: moirarose
+title: moirarose
+username:
+account: kaizadp
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2826011
+bundleId: 3637507
+url: https://kaizadp.shinyapps.io/moirarose/
+when: 1600304554.43028
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: moirarose.R
