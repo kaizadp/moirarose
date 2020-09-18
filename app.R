@@ -12,29 +12,40 @@ library(shiny)
 # Define UI for application that draws a histogram
 ui <- fluidPage(
     theme = shinythemes::shinytheme("readable"),
-    headerPanel("A Rose Quotation for Every Occasion"),
+    headerPanel(h3("A Rose Quotation for Every Occasion")),
     br(),
-    sidebarPanel(
+    sidebarLayout(sidebarPanel(
         width=4,
-        h4("Television's Moira Rose"),
+        h5("Television's Moira Rose"),
         h6("Schitt's Creek town councilor and lover of fruit wine"),
         #h6("lover of fruit wine"),
         br(),
-        br(),
         #p("Click the button to get a Moira Rose quote."),
         #img(src = "/moiracafe.png", height=270, width=400),
-        img(src = "moiracrows.png", height=270, width=400),
-        br(),
+        img(src = "moiracrows.png", height=200, width=290),
         br(),
         br(),
         actionButton("goButton", "get a Moira Rose quote"),
         br(),
     ),
+    
     mainPanel(
-        br(),
-        br(),
         h3(textOutput("nText"))
     )
+),
+hr(),
+tags$h5("Kaizad F. Patel - Aug 2020"),
+"Code available on ",
+tags$a(href="https://github.com/kaizadp/moirarose", 
+       "GitHub"),
+br(),
+"Twitter: ",
+tags$a(href="https://twitter.com/kaiz_p", 
+       "@kaiz_p"),
+br(),
+"Source data: ",
+tags$a(href="https://www.cbc.ca/schittscreek/m_site/", 
+       "Schitt's Creek"),
 )
 
 # Define server logic required to draw a histogram
@@ -98,7 +109,7 @@ server <- function(input, output) {
                   "So now you're taking bébé to the spa",
                   "At 9 am it's a little early for character assassination",
                   "What a unanimously disastrous day this is turning out to be",
-                  "My bébés ... Lorna ... if she takes on smoke, she'll never recover",
+                  "My bébés! Lorna! If she takes on smoke, she'll never recover!",
                   "The live crows on set welcomed me as their own",
                   "Be careful, lest you suffer vertigo from the dizzying heights of your moral ground",
                   "I used to share your FELICIFIC optimism, dear",
