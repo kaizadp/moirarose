@@ -5,9 +5,9 @@ account: kaizadp
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2826011
-bundleId: 3642068
+bundleId: 3642094
 url: https://kaizadp.shinyapps.io/moirarose/
-when: 1600391521.21869
+when: 1600392329.87632
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: app.Rmd|moirarose.R

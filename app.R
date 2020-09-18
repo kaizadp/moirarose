@@ -45,7 +45,7 @@ tags$a(href="https://twitter.com/kaiz_p",
 br(),
 "Source data: ",
 tags$a(href="https://www.cbc.ca/schittscreek/m_site/", 
-       "Schitt's Creek"),
+       "Schitt's Creek")
 )
 
 # Define server logic required to draw a histogram
