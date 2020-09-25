@@ -9,6 +9,5 @@ generator](https://kaizadp.shinyapps.io/moirarose/)
 
 -----
 
-Images and data: [SchittsCreek](https://twitter.com/SchittsCreek)
-
+Images and data: [SchittsCreek](https://twitter.com/SchittsCreek)  
 2020-09-25
