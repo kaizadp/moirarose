@@ -3,8 +3,6 @@
 
 # Film and television’s Moira Rose
 
------
-
 [Moira Rose random quotation
 generator](https://kaizadp.shinyapps.io/moirarose/)  
 (Click link above for Shiny App)
