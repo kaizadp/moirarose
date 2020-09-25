@@ -5,13 +5,14 @@
 
 -----
 
-Moira Rose random quotation generator.  
-Shiny App hosted [here](https://kaizadp.shinyapps.io/moirarose/).
+-----
+
+[Moira Rose random quotation
+generator](https://kaizadp.shinyapps.io/moirarose/).  
+(Click link above for Shiny App)
 
 -----
 
 Image credit: [SchittsCreek](https://twitter.com/SchittsCreek)
-
------
 
 2020-09-25
