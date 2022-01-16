@@ -2,15 +2,18 @@ library(shiny)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-  theme = shinythemes::shinytheme("readable"),
+  theme = shinythemes::shinytheme("flatly"),
+  
+  
+h4("Film and Television's Moira Rose"),
+h4("Lover of Fruit Wine"),
+  
   br(),
   
-    actionButton("goButton", "get a Moira Rose quote"),
-    br(),
-
-  
+    actionButton("goButton", "get a Moira Rose quote", 
+                 style="color: #fff; background-color: #023047; border-color: #023047",
+                 width="100%"),
     h3(textOutput("nText"))
-
   )
 
 # Define server logic required to draw a histogram
