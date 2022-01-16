@@ -1,0 +1,41 @@
+---
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## A Rose Quotation for Every Occasion
+
+---
+
+<div class = "row">
+  <div class = "col-md-6">
+
+```{r}
+source("moirarose.R")
+
+shinyApp(ui = ui, server = server)
+
+```
+
+  </div>
+<div class = "col-md-6">
+
+
+
+<div class = "row">
+  <div class = "col-md-6">
+
+
+<img  src="www/moirapope.jpg">
+
+Film and Television's Moira Rose
+
+Schitt's Creek town councilor and lover of fruit wine
+
+  </div>
+<div class = "col-md-6">
